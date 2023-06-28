@@ -28,7 +28,7 @@ class MapLib:
         'Iceberg alley': AreaOnGrid(LocationOnGrid(43, -45), LocationOnGrid(48, -50))
     }
 
-    atlantic_area = AreaOnGrid(LocationOnGrid(51.9, -74), LocationOnGrid(40, -1.41))
+    atlantic_area = AreaOnGrid(LocationOnGrid(40, -1.41), LocationOnGrid(51.9, -74))
 
     LOCATION_AREA_THRESHOLD = 0.1
     ATLANTIC_AREA = 'Atlantic'
