@@ -52,10 +52,7 @@ Queenstown to New York hits Iceberg
     Move Titanic out of current area
     Check that    Map area where 'Titanic's position' is located    Equals    Atlantic ocean
     Move Titanic out of current area
-    Check that    Map area where 'Titanic's position' is located    Equals    Iceberg alley
-    Move Titanic out of current area
     Spawn iceberg at coordinate longitude 45.6119 latitude -45.0011
     log    Iceberg, right ahead!
-    Move Titanic out of current area
     Check that    Map area where 'Titanic's position' is located    Equals    Iceberg alley
     Check that    Titanic's speed    equals    0
