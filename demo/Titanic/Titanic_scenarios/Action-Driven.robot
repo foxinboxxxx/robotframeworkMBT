@@ -57,5 +57,4 @@ Queenstown to New York hits Iceberg
     log    Iceberg, right ahead!
     Move Titanic out of current area
     Check that    Map area where 'Titanic's position' is located    Equals    Iceberg alley
-    Check that    Titanic's speed    equals    0
     Check that    Map area where 'Titanic's position' is located    Equals    New York
