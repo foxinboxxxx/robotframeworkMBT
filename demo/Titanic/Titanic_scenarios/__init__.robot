@@ -1,4 +1,5 @@
 *** Settings ***
-Suite Setup       Treat this test suite model-based
+Suite Setup
 Library           robotmbt
+Library           robotnl
 Resource          step_defs.resource

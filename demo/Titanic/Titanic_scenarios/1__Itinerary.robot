@@ -24,3 +24,5 @@ Queenstown to New York
     and Titanic sails the Atlantic
     and Titanic arrives in the port of New York
     then Titanic is docked in the port of New York
+
+*** Keywords ***
