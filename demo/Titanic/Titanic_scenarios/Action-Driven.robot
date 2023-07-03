@@ -44,6 +44,7 @@ Queenstown to New York miss Iceberg
     Log    Pfew! That was close!
     Check that    Titanic's speed    Is Greater Than    0
     Titanic stops
+    log    Dear passengers, this is the final destination of this journey. Please remember to collect all your personal belongings when disembarking.
 
 Queenstown to New York hits Iceberg
     Check that    Map area where 'Titanic's position' is located    Equals    Queenstown
@@ -54,5 +55,7 @@ Queenstown to New York hits Iceberg
     Move Titanic out of current area
     Spawn iceberg at coordinate longitude 45.6119 latitude -45.0011
     log    Iceberg, right ahead!
+    Move Titanic out of current area
     Check that    Map area where 'Titanic's position' is located    Equals    Iceberg alley
     Check that    Titanic's speed    equals    0
+    Check that    Map area where 'Titanic's position' is located    Equals    New York
