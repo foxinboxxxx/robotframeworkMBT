@@ -1,13 +1,9 @@
 
-class Titanic():
-    def __new__(cls, speed, direction):
-        if not hasattr(cls, "instance"):
-            cls.instance = super(Titanic, cls).__new__(cls)
-        return cls.instance
+class Titanic:
 
-    def __init__(self, speed, direction):
-        self.throttle = speed
-        self.steering_direction = direction
+    def __init__(self, throttle, steering_direction):
+        self.throttle = throttle  # percentage
+        self.steering_direction = steering_direction  # degrees (0 means steering straight)
         self.damaged = False
 
     def __repr__(self):
